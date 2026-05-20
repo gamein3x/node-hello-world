@@ -7,6 +7,8 @@ if (inputArray.length > 3) {
         const moreName = ` ${inputArray[i].toString()}`;
         message += moreName;
     }
+} else if (inputArray.length === 3) {
+    console.log(message)
+} else if (inputArray.length < 3) {
+    console.log('Ciao!')
 }
-
-console.log(message);
